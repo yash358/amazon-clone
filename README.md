@@ -1,2 +1,1 @@
-README
-hello there
+# amazon-clone
