@@ -13,7 +13,7 @@ function CheckoutProduct(p){
                     <div>{Array(p.rating).fill("⭐")}</div>
                 </div>
                 <div>
-                    <button onClick = {()=>{p.remove({img :p.img, price:p.price, id: p.id, title : p.title, rating : p.rating})}} className='btn'>REMOVE FROM CART</button>
+                    <button onClick = {()=>{p.remove({img :p.img, price:p.price, id: p.id, title : p.title, rating : p.rating})}} >REMOVE FROM CART</button>
                 </div>
             </div>
         </div>

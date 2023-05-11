@@ -17,10 +17,12 @@ function Header(props){
             </div>
             
             <div className='header-links'>
-                <div className='header-link'>
-                    <span className='header-link1'>Hello Yash</span>
-                    <span className='header-link2'>Sign In</span>
-                </div>
+                <Link to="/login" className='white'>
+                    <div className='header-link'>
+                        <span className='header-link1'>Hello Yash</span>
+                        <span className='header-link2'>Sign In</span>
+                    </div>
+                </Link>
                 <div className='header-link'>
                     <span className='header-link1'>Return</span>
                     <span className='header-link2'>& Orders</span>

@@ -1,6 +1,19 @@
 .checkout{
     background-color : rgb(217, 222, 220);
+    
+}
+.checkout-container{
+    display: flex;
 }
 .left-container{
     width: 70%;
+}
+.checkout-add{
+    width: 100%;
+    
+}
+.right-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10PX;
 }

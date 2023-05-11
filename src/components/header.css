@@ -29,6 +29,9 @@
     padding: 2px;
     background-color: rgb(241, 99, 48);
 }
+.white{
+    color: white;
+}
 .header-links{
     display: flex;
     align-content: space-evenly;

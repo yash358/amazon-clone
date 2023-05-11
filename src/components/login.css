@@ -1,0 +1,36 @@
+.login-logo{
+    width: 150px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(241, 245, 247);
+    height: 350px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.login-container > h1{
+    margin-bottom: 5px;
+}
+.login-container > form > h5{
+    margin-bottom: 5px;
+}
+.login-container > form > input{
+    margin-bottom: 5px;
+    height: 23px;
+    width: 100%;
+}
+.btn1{
+    width: 100%;
+    margin-top: 10px;
+}
+.btn2{
+    width: 100%;
+}
