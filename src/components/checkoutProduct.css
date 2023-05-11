@@ -1,0 +1,18 @@
+.cproduct-item{
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    height: 200px;
+    background-color: white;
+}
+.cproduct-image{
+    width: 150px;
+    max-height: 200px;
+    object-fit: contain;
+}
+.cproduct-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
